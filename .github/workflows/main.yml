@@ -11,6 +11,6 @@ jobs:
     runs-on: ubuntu-lates
 
     - name: Install nginx
-      run: sudo apt install nginx
+      run: sudo apt install nginx -y
 
  
