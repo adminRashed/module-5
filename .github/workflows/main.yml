@@ -1,16 +1,20 @@
-name: Module-5
+name: Node.js CI
 
 on:
   push:
     branches:
-        - main
- 
+      - main
 
 jobs:
   build:
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
 
-    - name: Install nginx
+    
+
+    steps:
+    - name: Checkout code
       run: sudo apt install nginx -y
+
+  
 
  
