@@ -1,0 +1,16 @@
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    
+
+    steps:
+    - name: install nginx
+      run: sudo apt install nginx -y
